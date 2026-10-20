@@ -1,0 +1,30 @@
+Run directory: C:\Users\foxtrot47\pi\ubisoft-re\tooling\captures\20261022T132423.573463Z\fresh-launch-20261022T142104.131813Z
+[*] fake launcher serving 3 pipes (+7 observe-only)
+[cloudsave] revision=3 cloud=ce3f0c93d6776590c495779577c61887 (4307B, 2026-10-21T17:37:11.728Z)
+[cloudsave] local=None (3467B) -> local save present but header hash is empty
+[session] live PC ticket ready (620B), 125 catalog products
+[launch] spawned pid=15400 cwd=C:\Users\foxtrot47\WATCH_DOGS2
+[pipe] client connected on game_start_ipc_pipe_
+[game_start] raw 98B head=0000005e0a5c0a5a08cd6810801520015231433a5c55736572735c666f7874726f7434375c57415443485f444f475332
+[game_start] exe='C:\\Users\\foxtrot47\\WATCH_DOGS2\\bin\\WatchDogs2.exe' cwd=''
+[game_start] launch parameters returned
+[pipe] client connected on uplay_aux_ipc_pipe_
+[aux] req 11B rid=1 init
+[pipe] client connected on uplay_api_process_ipc_pipe_[aux] req 357B rid=2 activate
+[api_process] productId=2688 gamePid=18212
+
+[aux] secureDlcEnabled=0
+[launch] wait event signaled
+[pipe] client connected on uplay_ipc_pipe_
+[uplay_ipc] request 13B 000000090a0708801510a48e01
+[uplay_ipc] session pushed (1294B), ticket 4307B, 1 push(es)
+[uplay_ipc] fresh mode: no captured follow-ups replayed
+[playsession] started
+[uplay_ipc] request 8B 000000046a020a00
+[uplay_ipc] f13 request -> session push (1294B)
+[aux] server-issued gameToken (1576B)
+[api_process] idle/closed
+[aux] idle/closed
+[uplay_ipc] idle/closed
+[playsession] deleted
+[*] fake launcher stopped

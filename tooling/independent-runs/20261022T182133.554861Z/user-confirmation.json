@@ -1,0 +1,27 @@
+{
+  "confirmed_at_utc": "2026-10-22T19:13:21.031347+00:00",
+  "source": "User reported game loaded and working; supplied gameplay screenshot",
+  "independent_launch_confirmed": true,
+  "gameplay_confirmed": true,
+  "eac_skip_requested": false,
+  "user_reports_no_eac_disabled_warning": true,
+  "eac_initialization_log_verified": false,
+  "multiplayer_ui_observed": true,
+  "screenshot_observations": [
+    "Player character in the game world",
+    "Public Party interface with empty slots",
+    "Multiplayer season and leaderboard screen"
+  ],
+  "joined_multiplayer_session_confirmed": true,
+  "save_reload_confirmed": false,
+  "session_capture_replayed": false,
+  "followup_capture_replayed": false,
+  "activation_disk_cache_used": false,
+  "live_pc_ticket_bytes": 620,
+  "live_game_token_bytes": 1576,
+  "screenshot": "gameplay-multiplayer-ui.png",
+  "screenshot_sha256": "ea4e9d61d443e91231e8d980dd7ba26f4aabbd274530a67a988723647119b784",
+  "status_observation": "phase remained game-exited after an earlier process exited; later active game PID 8500 registered and loaded gameplay",
+  "save_confirmed": true,
+  "additional_user_report": "it did join a session and save too"
+}

@@ -1,0 +1,59 @@
+# sessions / secrets
+*.log
+*.err
+~/.ubisoft_poc_session.json
+.ubisoft_poc_session.json
+
+# generated captures
+# Raw dumps stay local. The one directory cited by docs 10 / MIGRATION is tracked,
+# except payloads.bin, which carries live JWE/bearer/credential field bytes.
+tooling/captures/**
+!tooling/captures/20261022T132423.573463Z/
+!tooling/captures/20261022T132423.573463Z/**
+tooling/captures/20261022T132423.573463Z/payloads.bin
+tooling/captures/20261022T132423.573463Z/events.jsonl
+tooling/captures/20261022T132423.573463Z/live-probe-20261022T134314.183915Z/received.bin
+tooling/captures/20261022T132423.573463Z/**/*.save
+# live activation answer and the request that produced it
+tooling/captures/20261022T132423.573463Z/live-probe-20261022T134314.183915Z/game_token.bin
+tooling/captures/20261022T132423.573463Z/live-probe-20261022T134314.183915Z/sent.bin
+# empty run-control markers carry no information
+tooling/captures/**/STOP
+tooling/captures/**/RESUME
+
+# independent runs: confirmations, status and screenshots are tracked; save roots are not
+tooling/independent-runs/*/savegames/
+tooling/*.log
+tooling/*.txt
+evidence/*.log
+
+# build/runtime
+poc/bin/
+poc/bin-fresh/
+poc/denuvo_request_game.bin
+__pycache__/
+*.pyc
+
+# live token material: kept on disk, never committed
+evidence/denuvo_token.bin
+evidence/wd2_session_push.bin
+tooling/fresh_jwe.bin
+tooling/jwe_pair.bin
+tooling/fresh_ct.bin
+tooling/fresh_iv.bin
+tooling/fresh_tag.bin
+
+# user data / large artifacts
+savegames/
+downloads/
+runtime/*.dll
+runtime/*.exe
+testsaves/
+
+# Static-analysis databases are not part of the copied launch runtime.
+runtime/*.i64
+runtime/*.idb
+runtime/crashes/
+runtime/data/
+runtime/logs/
+runtime/savegames/

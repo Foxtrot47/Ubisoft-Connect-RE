@@ -1,0 +1,31 @@
+{
+  "mode": "temporary-cloud-slots",
+  "real_slots_written": false,
+  "metadata_written": false,
+  "slots": [
+    {
+      "name": "1.save",
+      "temporary_slot": "1463082922",
+      "bytes": 3467,
+      "compressed_bytes": 1212,
+      "sha256": "73ed3b5df3e94eb3b09aecd02aca8ae93de80aaeb6a9d99976e6cb4b407a1d87",
+      "download_sha256": "73ed3b5df3e94eb3b09aecd02aca8ae93de80aaeb6a9d99976e6cb4b407a1d87",
+      "byte_match": true
+    },
+    {
+      "name": "2.save",
+      "temporary_slot": "1895646053",
+      "bytes": 28806,
+      "compressed_bytes": 6033,
+      "sha256": "ea399a17fef9cb5c95ba837921b2ccb187fdfbda0ec1a14b62ce7375174d51a0",
+      "download_sha256": "ea399a17fef9cb5c95ba837921b2ccb187fdfbda0ec1a14b62ce7375174d51a0",
+      "byte_match": true
+    }
+  ],
+  "complete": true,
+  "cleanup_verified": {
+    "1895646053": true,
+    "1463082922": true
+  },
+  "cloud_metadata_unchanged": true
+}

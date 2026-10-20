@@ -1,0 +1,34 @@
+{
+  "collector_pid": 7020,
+  "elapsed_seconds": 325,
+  "records": 29900,
+  "payload_bytes": 5756506,
+  "capture_errors": 318010,
+  "failure": null,
+  "resource_limits": {
+    "max_capture_bytes": 536870912,
+    "max_collector_private_bytes": 268435456,
+    "max_target_growth_bytes": 536870912
+  },
+  "processes": [
+    {
+      "pid": 16756,
+      "name": "upc.exe",
+      "health_age_seconds": 1.6,
+      "missing_required_hooks": [],
+      "counts": {
+        "hook": 13,
+        "pipe-open": 19,
+        "encrypt-input": 91,
+        "encrypt-result": 91,
+        "decrypt-output": 686,
+        "pipe-pending": 846,
+        "gap": 10,
+        "health": 159,
+        "pipe-write-input": 23,
+        "pipe-read-output": 853
+      },
+      "pending_io": 0
+    }
+  ]
+}

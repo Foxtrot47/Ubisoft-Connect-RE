@@ -1,0 +1,95 @@
+Independent run directory: C:\Users\foxtrot47\pi\ubisoft-re\tooling\independent-runs\20261022T182133.554861Z
+[*] fake launcher serving 3 pipes (+7 observe-only)
+[cloudsave] revision=3 cloud=ce3f0c93d6776590c495779577c61887 (4307B, 2026-10-21T17:37:11.728Z)
+[cloudsave] local=None (0B) -> CLOUD ONLY (no local save)
+[session] live PC ticket ready (620B), 125 catalog products
+[launch] spawned pid=9244 cwd=C:\Users\foxtrot47\WATCH_DOGS2
+[pipe] client connected on uplay_api_process_ipc_pipe_
+[api_process] productId=2688 gamePid=9244
+[launch] wait event signaled
+[api_process] idle/closed
+[launch] real game pid=9244 exited with code 0x00000000[launch] startup process exited with code 0x00000000
+
+[pipe] client connected on game_start_ipc_pipe_
+[game_start] raw 85B head=000000510a4f0a4d08cd6810801520015231433a5c55736572735c666f7874726f7434375c57415443485f444f475332
+[game_start] exe='C:\\Users\\foxtrot47\\WATCH_DOGS2\\bin\\WatchDogs2.exe' cwd=''
+[game_start] launch parameters returned
+[pipe] client connected on uplay_aux_ipc_pipe_
+[aux] req 11B rid=1 init
+[pipe] client connected on uplay_api_process_ipc_pipe_
+[api_process] productId=2688 gamePid=10808
+[pipe] client connected on uplay_ipc_pipe_
+[uplay_ipc] request 12B 000000080a0608801510b854
+[uplay_ipc] session pushed (1345B), ticket 4307B, 1 push(es)
+[uplay_ipc] fresh mode: no captured follow-ups replayed
+[aux] req 357B rid=2 activate
+[aux] secureDlcEnabled=0
+[playsession] started
+[api_process] idle/closed[uplay_ipc] idle/closed
+
+[launch] real game pid=10808 exited with code 0x00000000
+[aux] server-issued gameToken (1576B)
+[pipe] client connected on uplay_aux_ipc_pipe_
+[aux] req 11B rid=1 init
+[pipe] client connected on uplay_api_process_ipc_pipe_
+[api_process] productId=2688 gamePid=8500
+[pipe] client connected on uplay_ipc_pipe_
+[uplay_ipc] request 12B 000000080a0608801510b442
+[uplay_ipc] session pushed (1345B), ticket 4307B, 2 push(es)
+[uplay_ipc] fresh mode: no captured follow-ups replayed
+[aux] req 357B rid=2 activate
+[aux] secureDlcEnabled=0
+[uplay_ipc] request 8B 000000046a020a00
+[uplay_ipc] generated installer initialization (language=en-US, no chunk catalog)
+[aux] server-issued gameToken (1576B)
+[uplay_ipc] request 8B 000000043a020a00
+[uplay_ipc] unsupported request fields [7]
+[uplay_ipc] request 50B 0000002e522c0a2a0804122430303030303030302d303030
+[uplay_ipc] unsupported request fields [10]
+[uplay_ipc] request 12B 000000084a060a0408051001
+[uplay_ipc] unsupported request fields [9]
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[uplay_ipc] request 12B 0000000842061a04082f1001
+[uplay_ipc] unsupported request fields [8]
+[uplay_ipc] request 16B 00000004620212000000000462021200
+[uplay_ipc] unsupported request fields [0, 12]
+[playsession] refreshed
+[uplay_ipc] request 16B 00000004620212000000000462021200
+[uplay_ipc] unsupported request fields [0, 12]
+[playsession] refreshed
+[uplay_ipc] request 12B 0000000842061a0408681002
+[uplay_ipc] unsupported request fields [8]
+[playsession] refreshed
+[uplay_ipc] request 16B 00000004620212000000000462021200
+[uplay_ipc] unsupported request fields [0, 12]
+[playsession] refreshed
+[uplay_ipc] request 13B 0000000942071a05088d011003
+[uplay_ipc] unsupported request fields [8]
+[uplay_ipc] request 72B 000000202a1e0a1c088ff3a6cc99fbece372120eeb1b7b7b
+[uplay_ipc] unsupported request fields [0, 5]
+[playsession] refreshed
+[uplay_ipc] request 36B 000000202a1e0a1c088ff3a6cc99fbece372120eeb1b7b7b
+[uplay_ipc] unsupported request fields [5]
+[uplay_ipc] request 6B 000000023200
+[uplay_ipc] unsupported request fields [6]
+[uplay_ipc] request 72B 000000202a1e0a1c08b998c7d486aebdd71e120eeb1b7b7b
+[uplay_ipc] unsupported request fields [0, 5]
+[uplay_ipc] request 36B 000000202a1e0a1c08b998c7d486aebdd71e120eeb1b7b7b
+[uplay_ipc] unsupported request fields [5]
+[uplay_ipc] request 6B 000000023200
+[uplay_ipc] unsupported request fields [6]
+[uplay_ipc] request 70B 0000001f2a1d0a1b0896ffdf98bcbaedcd4b120de33b937b
+[uplay_ipc] unsupported request fields [0, 5]
+[playsession] refreshed
+[uplay_ipc] request 35B 0000001f2a1d0a1b0896ffdf98bcbaedcd4b120de33b937b
+[uplay_ipc] unsupported request fields [5]
+[uplay_ipc] request 6B 000000023200
+[uplay_ipc] unsupported request fields [6]
+[aux] idle/closed[api_process] idle/closed
+
+[uplay_ipc] idle/closed
+[launch] real game pid=8500 exited with code 0x00000000
+[playsession] refreshed
+[playsession] refreshed

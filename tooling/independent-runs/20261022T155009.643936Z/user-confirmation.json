@@ -1,0 +1,16 @@
+{
+  "confirmed_at_utc": "2026-10-22T15:52:03.762660+00:00",
+  "source": "user report: worked",
+  "independent_launch_confirmed": true,
+  "gameplay_explicitly_confirmed": false,
+  "save_reload_explicitly_confirmed": false,
+  "authentication": "PoC login, not capture-derived",
+  "session": "generated",
+  "installer_reply": "generated",
+  "session_capture_replayed": false,
+  "followup_capture_replayed": false,
+  "activation_disk_cache_used": false,
+  "official_client_install_and_state": "isolated, originals preserved",
+  "official_runtime_dependency": true,
+  "eac_skip_requested": true
+}

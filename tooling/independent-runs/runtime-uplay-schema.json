@@ -1,0 +1,6380 @@
+{
+  "source_sha256": "0e903bf47cd4c5ec287377a2262fadf99d809a8883ad0d9c61d6fe15b44727e4",
+  "descriptor_file_offset": "0x19fa40",
+  "descriptor_bytes": 36240,
+  "messages": [
+    {
+      "name": "SDKMonitoringArgument",
+      "fields": [
+        {
+          "number": 1,
+          "name": "name",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "value",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "SDKMonitoringInfoPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "functionName",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "arguments",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SDKMonitoringArgument",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "SDKMonitoringConfig",
+      "fields": [
+        {
+          "number": 1,
+          "name": "sdkMonitoringEnabled",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "SDKMonitoringReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "sdkMonitoringInfoPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SDKMonitoringInfoPush",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "SDKMonitoringRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "sdkMonitoringConfig",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SDKMonitoringConfig",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "Consumable",
+      "fields": [
+        {
+          "number": 1,
+          "name": "productId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "quantity",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "DevArgs",
+      "fields": [
+        {
+          "number": 1,
+          "name": "uatOnly",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "InitReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "uplayId",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "processId",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "apiVersion",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "subSystemFriend",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "subSystemOverlay",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "subSystemProduct",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "subSystemStorage",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "subSystemInstall",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 9,
+          "name": "subSystemMultiplayer",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 10,
+          "name": "subSystemStore",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 11,
+          "name": "subSystemStreaming",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "InitProcessReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "uplayId",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "processId",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "apiVersion",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "devArgs",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.DevArgs",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "uplayEnvIsSet",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "InitSubSystemOverlayReq",
+      "fields": []
+    },
+    {
+      "name": "GameCdKey",
+      "fields": [
+        {
+          "number": 1,
+          "name": "uplayId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "cdKey",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GameInstall",
+      "fields": [
+        {
+          "number": 1,
+          "name": "success",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "chunks",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Chunks",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "language",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "Account",
+      "fields": [
+        {
+          "number": 1,
+          "name": "accountId",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "username",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "nameOnPlatform",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "email",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "password",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "country",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "Overlay",
+      "fields": [
+        {
+          "number": 1,
+          "name": "enabled",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "injectionMethod",
+          "label": 1,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OverlayInjectionMethod",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "HardwareBenchmark",
+      "fields": [
+        {
+          "number": 1,
+          "name": "cpuScore",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "gpuScore",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "gpuScoreConfidenceLevel",
+          "label": 1,
+          "type": 2,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "Storage",
+      "fields": [
+        {
+          "number": 1,
+          "name": "savegameStoragePath",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UbiServices",
+      "fields": [
+        {
+          "number": 1,
+          "name": "appId",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "InitRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.InitResult",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "account",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Account",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "connected",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "gameUplayId",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "uplayIds",
+          "label": 3,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "gameCdKeys",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GameCdKey",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "isInOfflineMode",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "upcTicket",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 9,
+          "name": "consumables",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Consumable",
+          "default": ""
+        },
+        {
+          "number": 10,
+          "name": "uplayPID",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 11,
+          "name": "sdkMonitoringConfig",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SDKMonitoringConfig",
+          "default": ""
+        },
+        {
+          "number": 12,
+          "name": "devmode",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 14,
+          "name": "gameInstall",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GameInstall",
+          "default": ""
+        },
+        {
+          "number": 15,
+          "name": "overlay",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Overlay",
+          "default": ""
+        },
+        {
+          "number": 16,
+          "name": "hwBenchmark",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.HardwareBenchmark",
+          "default": ""
+        },
+        {
+          "number": 17,
+          "name": "storage",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Storage",
+          "default": ""
+        },
+        {
+          "number": 18,
+          "name": "friendInit",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.FriendInit",
+          "default": ""
+        },
+        {
+          "number": 19,
+          "name": "storeInit",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.StoreInit",
+          "default": ""
+        },
+        {
+          "number": 20,
+          "name": "multiplayerInit",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerInit",
+          "default": ""
+        },
+        {
+          "number": 21,
+          "name": "userInit",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UserInit",
+          "default": ""
+        },
+        {
+          "number": 22,
+          "name": "ubiServices",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UbiServices",
+          "default": ""
+        },
+        {
+          "number": 23,
+          "name": "crossBootInit",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.CrossBootInit",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "InitProcessRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.InitResult",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "uplayPID",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "overlayEnabled",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "overlayInjectionMethod",
+          "label": 1,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OverlayInjectionMethod",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "sdkMonitoringConfig",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SDKMonitoringConfig",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "devmode",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "InitSubSystemOverlayRsp",
+      "fields": []
+    },
+    {
+      "name": "RichPresenceTokenPair",
+      "fields": [
+        {
+          "number": 1,
+          "name": "key",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "value",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "SetRichPresenceReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "presenceId",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "presenceTokens",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.RichPresenceTokenPair",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "SetRichPresenceRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "RichPresenceReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "setReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SetRichPresenceReq",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "AchievementInBlob",
+      "fields": [
+        {
+          "number": 1,
+          "name": "achievementId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "titleId",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "descriptionId",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "imageId",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "AchievementsBlob",
+      "fields": [
+        {
+          "number": 1,
+          "name": "achievements",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.AchievementInBlob",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "TakenAchievement",
+      "fields": [
+        {
+          "number": 1,
+          "name": "achievement",
+          "label": 2,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.AchievementInBlob",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "timestamp",
+          "label": 2,
+          "type": 4,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "Spool",
+      "fields": [
+        {
+          "number": 1,
+          "name": "achievementsTaken",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.TakenAchievement",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "WriteAchievementsReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "achievement",
+          "label": 2,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.AchievementInBlob",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "WriteAchievementsRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "status",
+          "label": 2,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "AchievementData",
+      "fields": [
+        {
+          "number": 1,
+          "name": "id",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "name",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "description",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "isEarned",
+          "label": 2,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "timestamp",
+          "label": 2,
+          "type": 4,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetAchievementsReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "onlyEarned",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "accountId",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "languageCountryCode",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetAchievementsRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "data",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.AchievementData",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetAchievementImageReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "id",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetAchievementImageRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "data",
+          "label": 1,
+          "type": 12,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "EarnAchievementReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "id",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "EarnAchievementRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "AchievementReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "getReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetAchievementsReq",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "imageReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetAchievementImageReq",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "earnReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.EarnAchievementReq",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "AchievementRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "getRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetAchievementsRsp",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "imageRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetAchievementImageRsp",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "earnRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.EarnAchievementRsp",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GameSession",
+      "fields": [
+        {
+          "number": 1,
+          "name": "id",
+          "label": 2,
+          "type": 4,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "data",
+          "label": 2,
+          "type": 12,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "joinability",
+          "label": 1,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.GameSessionJoinability",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "SetGameSessionReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "gameSession",
+          "label": 2,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GameSession",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ClearGameSessionReq",
+      "fields": []
+    },
+    {
+      "name": "GetCredentialsReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetCredentialsRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "username",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "password",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "accountId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "email",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "AccountSharingPush",
+      "fields": []
+    },
+    {
+      "name": "ConnectionLostPush",
+      "fields": []
+    },
+    {
+      "name": "ConnectionRestoredPush",
+      "fields": []
+    },
+    {
+      "name": "OwnershipAddedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "uplayId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "cdKey",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "product",
+          "label": 2,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Product",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OwnershipRemovedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "uplayIds",
+          "label": 3,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "TrialAboutToExpirePush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "minutesBeforeEnd",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "TrialExpiredPush",
+      "fields": []
+    },
+    {
+      "name": "TicketPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "ticket",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ConsumeItemReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "product_id",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "quantity",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "transaction_id",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "signature",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ConsumeItemRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.ConsumeItemRsp.Result",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "signature",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ConsumableUpdatedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "consumable",
+          "label": 2,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Consumable",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetProfileReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "accountId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetProfileRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "name",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UserReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "getCredentialsReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetCredentialsReq",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "consumeItemReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ConsumeItemReq",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "getProfileReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetProfileReq",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UserRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "getCredentialsRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetCredentialsRsp",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "accountSharingPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.AccountSharingPush",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "ownershipAddedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OwnershipAddedPush",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "ticketPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.TicketPush",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "consumeItemRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ConsumeItemRsp",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "consumableUpdatedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ConsumableUpdatedPush",
+          "default": ""
+        },
+        {
+          "number": 9,
+          "name": "ownershipRemovedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OwnershipRemovedPush",
+          "default": ""
+        },
+        {
+          "number": 10,
+          "name": "getProfileRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetProfileRsp",
+          "default": ""
+        },
+        {
+          "number": 11,
+          "name": "trialAboutToExpirePush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.TrialAboutToExpirePush",
+          "default": ""
+        },
+        {
+          "number": 12,
+          "name": "trialExpiredPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.TrialExpiredPush",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "Friend",
+      "fields": [
+        {
+          "number": 1,
+          "name": "accountId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "name",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "nickname",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "relationship",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.Relationship",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "blackListed",
+          "label": 2,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "presence",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OnlineStatus",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "playingCurrentGame",
+          "label": 2,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "gameSession",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GameSession",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "InitFriendsReq",
+      "fields": []
+    },
+    {
+      "name": "FriendInit",
+      "fields": [
+        {
+          "number": 1,
+          "name": "friendList",
+          "label": 3,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "isAvailable",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "FriendListUpdatedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "friendList",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Friend",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "FriendListUpdatedPushV2",
+      "fields": [
+        {
+          "number": 1,
+          "name": "friendsAdded",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.User",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "friendsNameUpdated",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.User",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "friendsPresenceUpdated",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.User",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "friendsRemoved",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.User",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GameSessionUpdate",
+      "fields": [
+        {
+          "number": 1,
+          "name": "gameSession",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GameSession",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "RequestFriendshipReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "searchString",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "RequestFriendshipRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "AddToBlackListReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "accountId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "AddToBlackListRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "RemoveFromBlackListReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "accountId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "RemoveFromBlackListRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "SendGameInviteReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "SendGameInviteRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "FriendSelectionFilter",
+      "fields": [
+        {
+          "number": 1,
+          "name": "allowedAccountIds",
+          "label": 3,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ShowFriendSelectionUIReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "filter",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.FriendSelectionFilter",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ShowFriendSelectionUISuccess",
+      "fields": [
+        {
+          "number": 1,
+          "name": "accountId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ShowFriendSelectionUICanceled",
+      "fields": []
+    },
+    {
+      "name": "ShowFriendSelectionUIEmptyList",
+      "fields": []
+    },
+    {
+      "name": "ShowFriendSelectionUIRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "success",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ShowFriendSelectionUISuccess",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "cancelled",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ShowFriendSelectionUICanceled",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "emptyList",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ShowFriendSelectionUIEmptyList",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "FriendCustomMenuItemSelectedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "itemId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "accountId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "FriendsGameInviteAcceptReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "inviteId",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "isAccepted",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "FriendsGameInviteAcceptedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "gameSession",
+          "label": 2,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GameSession",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "accountId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "FriendsGameInvitePush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "inviteId",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "fromAccountId",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "InviteFriendToGameReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "accountId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "InviteFriendToGameRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ShowInviteFriendsToGameUIReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "allowedAccountIds",
+          "label": 3,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "AddPlayedWithReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "description",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "accountIds",
+          "label": 3,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "AddPlayedWithRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "RemoveFriendshipReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "accountId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "RemoveFriendshipRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetNameReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "accountId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetNameRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "name",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "Presence",
+      "fields": [
+        {
+          "number": 1,
+          "name": "onlineStatus",
+          "label": 1,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OnlineStatusV2",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "details",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "titleId",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "titleName",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "multiplayerId",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "multiplayerJoinable",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "multiplayerSize",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "multiplayerMaxSize",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 9,
+          "name": "multiplayerInternalData",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "User",
+      "fields": [
+        {
+          "number": 1,
+          "name": "id",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "name",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "relationship",
+          "label": 1,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.Relationship",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "presence",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Presence",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetFriendListReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "accountId",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "onlineStatusFilter",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "languageCountryCode",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetFriendListRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "friendList",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.User",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "FriendsReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "initReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.InitFriendsReq",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "requestFriendshipReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.RequestFriendshipReq",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "addToBlackListReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.AddToBlackListReq",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "showFriendSelectionUIReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ShowFriendSelectionUIReq",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "inviteFriendToGameReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.InviteFriendToGameReq",
+          "default": ""
+        },
+        {
+          "number": 9,
+          "name": "showInviteFriendsToGameUIReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ShowInviteFriendsToGameUIReq",
+          "default": ""
+        },
+        {
+          "number": 10,
+          "name": "addPlayedWithReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.AddPlayedWithReq",
+          "default": ""
+        },
+        {
+          "number": 11,
+          "name": "removeFriendshipReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.RemoveFriendshipReq",
+          "default": ""
+        },
+        {
+          "number": 12,
+          "name": "removeFromBlackListReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.RemoveFromBlackListReq",
+          "default": ""
+        },
+        {
+          "number": 13,
+          "name": "getNameReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetNameReq",
+          "default": ""
+        },
+        {
+          "number": 14,
+          "name": "gameInviteAcceptReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.FriendsGameInviteAcceptReq",
+          "default": ""
+        },
+        {
+          "number": 15,
+          "name": "getFriendListReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetFriendListReq",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "FriendsRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "friendListUpdatedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.FriendListUpdatedPush",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "friendsGameInviteAcceptedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.FriendsGameInviteAcceptedPush",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "requestFriendhipRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.RequestFriendshipRsp",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "addToBlackListRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.AddToBlackListRsp",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "sendGameInviteRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SendGameInviteRsp",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "showFriendSelectionUIRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ShowFriendSelectionUIRsp",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "inviteFriendToGameRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.InviteFriendToGameRsp",
+          "default": ""
+        },
+        {
+          "number": 9,
+          "name": "removeFriendshipRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.RemoveFriendshipRsp",
+          "default": ""
+        },
+        {
+          "number": 10,
+          "name": "removeFromBlackListRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.RemoveFromBlackListRsp",
+          "default": ""
+        },
+        {
+          "number": 11,
+          "name": "getNameRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetNameRsp",
+          "default": ""
+        },
+        {
+          "number": 12,
+          "name": "getFriendListRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetFriendListRsp",
+          "default": ""
+        },
+        {
+          "number": 13,
+          "name": "gameInvitePush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.FriendsGameInvitePush",
+          "default": ""
+        },
+        {
+          "number": 14,
+          "name": "friendListUpdatedPushV2",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.FriendListUpdatedPushV2",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetAvatarReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "accountId",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "size",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.AvatarSize",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetAvatarRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "bitmap",
+          "label": 1,
+          "type": 12,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "AvatarReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "getAvatarReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetAvatarReq",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "AvatarRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "getAvatarRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetAvatarRsp",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "Product",
+      "fields": [
+        {
+          "number": 1,
+          "name": "id",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "type",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.ProductType",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "ownership",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.ProductOwnership",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "state",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.ProductState",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "balance",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "activation",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.ProductActivation",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetProductListReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "filter",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "accountId",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetProductListRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "productList",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Product",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ProductConsumeReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "productId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "quantity",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "transactionId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "signature",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ProductConsumeRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "signature",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ProductAddedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "product",
+          "label": 2,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Product",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ProductUpdatedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "id",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "ownership",
+          "label": 1,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.ProductOwnership",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "state",
+          "label": 1,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.ProductState",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "balance",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ProductTrackAddonReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "addonId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ProductTrackAddonRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ProductReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "getProductListReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetProductListReq",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "productConsumeReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ProductConsumeReq",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "productTrackAddonReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ProductTrackAddonReq",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ProductRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "getProductListRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetProductListRsp",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "productConsumeRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ProductConsumeRsp",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "productAddedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ProductAddedPush",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "productUpdatedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ProductUpdatedPush",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "productTrackAddonRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ProductTrackAddonRsp",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "StoreProduct",
+      "fields": [
+        {
+          "number": 1,
+          "name": "id",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "title",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "description",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "imageUrl",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "isOwned",
+          "label": 2,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "price",
+          "label": 2,
+          "type": 2,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "priceOriginal",
+          "label": 2,
+          "type": 2,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "currency",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 9,
+          "name": "userBlob",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 10,
+          "name": "tags",
+          "label": 3,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "StoreInit",
+      "fields": [
+        {
+          "number": 1,
+          "name": "isAvailable",
+          "label": 2,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "targetPartner",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.TargetPartner",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetStoreProductsReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetStoreProductsRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "productsList",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.StoreProduct",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "CheckoutReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "id",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ShowProductDetailsReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "id",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ShowProductsReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "tags",
+          "label": 3,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ProductsListChangedPush",
+      "fields": []
+    },
+    {
+      "name": "StoreCheckoutStartedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "id",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "StoreCheckoutFinishedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "id",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.CheckoutResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "StoreStatusUpdatedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "isAvailable",
+          "label": 2,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "StoreReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "getStoreProductsReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStoreProductsReq",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "checkoutReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.CheckoutReq",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "showProductDetailsReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ShowProductDetailsReq",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "showProductsReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ShowProductsReq",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "setLanguageReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SetLanguageCountryCodeReq",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "StoreRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "getStoreProductsRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStoreProductsRsp",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "productsListChangedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ProductsListChangedPush",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "storeCheckoutStartedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.StoreCheckoutStartedPush",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "storeCheckoutFinishedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.StoreCheckoutFinishedPush",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "storeStatusUpdatedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.StoreStatusUpdatedPush",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerSession",
+      "fields": [
+        {
+          "number": 1,
+          "name": "id",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "joinability",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerSessionJoinability",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "size",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "maxSize",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "internalData",
+          "label": 1,
+          "type": 12,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerInit",
+      "fields": [
+        {
+          "number": 1,
+          "name": "session",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerSession",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "isAvailable",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerSessionSetReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "session",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerSession",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerSessionSetRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerInviteReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "userId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerInviteRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerInviteCancelReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "userId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerInviteAnswerReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "senderId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "isAccepted",
+          "label": 2,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerInviteAnswerRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerInviteReceivedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "senderId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "session",
+          "label": 2,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerSession",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerInviteAcceptedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "senderId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "session",
+          "label": 2,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerSession",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerInviteDeclinedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "senderId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerSessionUpdatedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "session",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerSession",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerJoiningRequestedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "session",
+          "label": 2,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerSession",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "multiplayerSessionSetReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerSessionSetReq",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "multiplayerInviteReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerInviteReq",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "multiplayerInviteCancelReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerInviteCancelReq",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "multiplayerInviteAnswerReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerInviteAnswerReq",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MultiplayerRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "multiplayerSessionSetRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerSessionSetRsp",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "multiplayerInviteRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerInviteRsp",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "multiplayerInviteAnswerRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerInviteAnswerRsp",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "multiplayerInviteReceivedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerInviteReceivedPush",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "multiplayerInviteAcceptedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerInviteAcceptedPush",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "multiplayerInviteDeclinedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerInviteDeclinedPush",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "multiplayerSessionUpdatedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerSessionUpdatedPush",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "multiplayerJoiningRequestedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerJoiningRequestedPush",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayShowReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "section",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OverlaySection",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayShowRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayStateChangedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "state",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OverlayState",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlaySetShopUrlReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "url",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlaySetShopUrlRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayShowShopUrlReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "url",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayShowBrowserUrlReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "url",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayShowBrowserUrlRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayShowNotificationReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "notificationId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayShowNotificationRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayShowFriendInvitationReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "userIds",
+          "label": 3,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayShowFriendInvitationRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayShowFriendSelectionReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "userIds",
+          "label": 3,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayShowFriendSelectionRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "selectedIds",
+          "label": 3,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayMicroAppParam",
+      "fields": [
+        {
+          "number": 1,
+          "name": "name",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "value",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayShowMicroAppReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "microAppName",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "microAppParams",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayMicroAppParam",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayShowMicroAppRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "SetLanguageCountryCodeReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "languageCountryCode",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "overlayShowReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayShowReq",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "overlaySetShopUrlReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlaySetShopUrlReq",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "overlayShowShopUrlReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayShowShopUrlReq",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "overlayShowBrowserUrlReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayShowBrowserUrlReq",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "overlayShowNotificationReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayShowNotificationReq",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "overlayShowFriendInvitationReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayShowFriendInvitationReq",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "overlayShowFriendSelectionReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayShowFriendSelectionReq",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "overlayShowMicroAppReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayShowMicroAppReq",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OverlayRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "overlayShowRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayShowRsp",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "overlaySetShopUrlRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlaySetShopUrlRsp",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "overlayShowBrowserUrlRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayShowBrowserUrlRsp",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "overlayShowNotificationRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayShowNotificationRsp",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "overlayShowFriendInvitationRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayShowFriendInvitationRsp",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "overlayShowFriendSelectionRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayShowFriendSelectionRsp",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "overlayStateChangedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayStateChangedPush",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "overlayShowMicroAppRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayShowMicroAppRsp",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UserInit",
+      "fields": [
+        {
+          "number": 1,
+          "name": "blacklistedList",
+          "label": 3,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "isAvailable",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UserBlacklistUpdatedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "added",
+          "label": 3,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "removed",
+          "label": 3,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UserShutdownPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "reason",
+          "label": 1,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.UserShutdownReason",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UserAddToBlacklistReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "userId",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UserAddToBlacklistRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UserGetReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "userId",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UserGetRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "user",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.User",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UserReqV2",
+      "fields": [
+        {
+          "number": 1,
+          "name": "userGetReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UserGetReq",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "userAddToBlacklistReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UserAddToBlacklistReq",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "setRichPresenceReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SetRichPresenceReq",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "addPlayedWithReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.AddPlayedWithReq",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UserRspV2",
+      "fields": [
+        {
+          "number": 1,
+          "name": "userGetRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UserGetRsp",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "userAddToBlacklistRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UserAddToBlacklistRsp",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "setRichPresenceRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SetRichPresenceRsp",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "addPlayedWithRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.AddPlayedWithRsp",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "userBlacklistUpdatedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UserBlacklistUpdatedPush",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "userShutdownPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UserShutdownPush",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "Reward",
+      "fields": [
+        {
+          "number": 1,
+          "name": "name",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "description",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "code",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "url",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "cost",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "gameCode",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "platformCode",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "imageUrl",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 9,
+          "name": "redeemed",
+          "label": 2,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetRewardsReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "languageCountryCode",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetRewardsRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "rewards",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Reward",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "RewardRedeemedPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "reward",
+          "label": 2,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Reward",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "Action",
+      "fields": [
+        {
+          "number": 1,
+          "name": "id",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "name",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "description",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "units",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "imageUrl",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "completed",
+          "label": 2,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "conditionalRewardNames",
+          "label": 3,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "code",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetActionsReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "languageCountryCode",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetActionsRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "actions",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Action",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "RefreshActionsReq",
+      "fields": []
+    },
+    {
+      "name": "SetActionsCompletedReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "actionIds",
+          "label": 3,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "SetActionsCompletedRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetUnitBalanceReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetUnitBalanceRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "balance",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UnitBalancePush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "balance",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ClubReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "getRewardsReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetRewardsReq",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "refreshActionsReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.RefreshActionsReq",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "setActionsCompletedReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SetActionsCompletedReq",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "getActionsReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetActionsReq",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "getUnitBalanceReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetUnitBalanceReq",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ClubRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "getRewardsRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetRewardsRsp",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "rewardRedeemedPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.RewardRedeemedPush",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "setActionsCompletedRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SetActionsCompletedRsp",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "getActionsRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetActionsRsp",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "getUnitBalanceRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetUnitBalanceRsp",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "unitBalancePush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UnitBalancePush",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ChunkInfo",
+      "fields": [
+        {
+          "number": 1,
+          "name": "chunkId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "downloaded",
+          "label": 1,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "tags",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "Chunks",
+      "fields": [
+        {
+          "number": 1,
+          "name": "chunks",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ChunkInfo",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UpdateInstallOrderReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "chunks",
+          "label": 2,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Chunks",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UpdateInstallOrderRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ChunkInstalledPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "chunkId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ChunkProgressPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "chunkId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "installedBytes",
+          "label": 2,
+          "type": 4,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "sizeInBytes",
+          "label": 2,
+          "type": 4,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ProgressPush",
+      "fields": [
+        {
+          "number": 1,
+          "name": "installedBytes",
+          "label": 2,
+          "type": 4,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "sizeInBytes",
+          "label": 2,
+          "type": 4,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "bytesPerSecond",
+          "label": 2,
+          "type": 4,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "InitInstallerReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "simulateConfigFile",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "InitInstallerRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "success",
+          "label": 2,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "chunks",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Chunks",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "language",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "InstallerReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "initInstallerReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.InitInstallerReq",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "updateInstallOrderReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UpdateInstallOrderReq",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "UpdateAvailablePush",
+      "fields": []
+    },
+    {
+      "name": "InstallerRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "initInstallerRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.InitInstallerRsp",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "updateInstallOrderRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UpdateInstallOrderRsp",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "chunkInstalledPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ChunkInstalledPush",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "chunkProgressPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ChunkProgressPush",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "progressPush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ProgressPush",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "updateAvailablePush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UpdateAvailablePush",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "SingleEventTag",
+      "fields": [
+        {
+          "number": 1,
+          "name": "name",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "value",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ContinuousTag",
+      "fields": [
+        {
+          "number": 1,
+          "name": "name",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "value",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "ClearContinuousTag",
+      "fields": [
+        {
+          "number": 1,
+          "name": "name",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "MetadataReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "singleEventTag",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SingleEventTag",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "continuousTag",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ContinuousTag",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "clearContinuousTag",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ClearContinuousTag",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "TerminateGamePush",
+      "fields": []
+    },
+    {
+      "name": "LaunchAppParam",
+      "fields": [
+        {
+          "number": 1,
+          "name": "name",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "value",
+          "label": 2,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "LaunchAppReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "productId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "params",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.LaunchAppParam",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "LaunchAppRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.GameLaunchResult",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "CrossBootAllowedReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "productId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "CrossBootAllowedRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "isAllowed",
+          "label": 2,
+          "type": 8,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "CrossBootStatusReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "productIds",
+          "label": 3,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "CrossBootStatusRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "status",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.CrossBootStatusRsp.Status",
+          "default": ""
+        }
+      ],
+      "nested": [
+        {
+          "name": "Status",
+          "fields": [
+            {
+              "number": 1,
+              "name": "productId",
+              "label": 1,
+              "type": 13,
+              "type_name": "",
+              "default": ""
+            },
+            {
+              "number": 2,
+              "name": "isAllowed",
+              "label": 1,
+              "type": 8,
+              "type_name": "",
+              "default": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CrossBootInit",
+      "fields": [
+        {
+          "number": 1,
+          "name": "launchParams",
+          "label": 3,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.LaunchAppParam",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetStreamingCurrentUserCountryReq",
+      "fields": []
+    },
+    {
+      "name": "GetStreamingCurrentUserCountryRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "userCountry",
+          "label": 1,
+          "type": 9,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetStreamingTypeReq",
+      "fields": []
+    },
+    {
+      "name": "GetStreamingTypeRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "streamingType",
+          "label": 1,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.StreamingType",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetStreamingNetworkDelayForInputReq",
+      "fields": []
+    },
+    {
+      "name": "GetStreamingNetworkDelayForInputRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "delay",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetStreamingNetworkDelayForVideoReq",
+      "fields": []
+    },
+    {
+      "name": "GetStreamingNetworkDelayForVideoRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "delay",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetStreamingNetworkDelayRoundtripReq",
+      "fields": []
+    },
+    {
+      "name": "GetStreamingNetworkDelayRoundtripRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "delay",
+          "label": 1,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetStreamingDeviceTypeReq",
+      "fields": []
+    },
+    {
+      "name": "GetStreamingDeviceTypeRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "streamingDeviceType",
+          "label": 1,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.StreamingDeviceType",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetStreamingInputTypeReq",
+      "fields": []
+    },
+    {
+      "name": "GetStreamingInputTypeRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "streamingInputType",
+          "label": 1,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.StreamingInputType",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetStreamingInputGamepadTypeReq",
+      "fields": []
+    },
+    {
+      "name": "GetStreamingInputGamepadTypeRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "streamingInputGamepadType",
+          "label": 1,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.GamepadType",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetStreamingResolutionReq",
+      "fields": []
+    },
+    {
+      "name": "Dimension2d",
+      "fields": [
+        {
+          "number": 1,
+          "name": "width",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "height",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "GetStreamingResolutionRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "streamingResolution",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.Dimension2d",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OpenStreamingTextEntryReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "xPosition",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "yPosition",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "width",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "height",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "mode",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.TextEntryMode",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "OpenStreamingTextEntryRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "handle",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "CloseStreamingTextEntryReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "handle",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "CloseStreamingTextEntryRsp",
+      "fields": []
+    },
+    {
+      "name": "StreamingReq",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "getStreamingCurrentUserCountryReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingCurrentUserCountryReq",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "getStreamingTypeReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingTypeReq",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "getStreamingNetworkDelayForInputReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingNetworkDelayForInputReq",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "getStreamingNetworkDelayForVideoReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingNetworkDelayForVideoReq",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "getStreamingNetworkDelayRoundtripReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingNetworkDelayRoundtripReq",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "getStreamingDeviceTypeReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingDeviceTypeReq",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "getStreamingInputTypeReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingInputTypeReq",
+          "default": ""
+        },
+        {
+          "number": 9,
+          "name": "getStreamingInputGamepadTypeReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingInputGamepadTypeReq",
+          "default": ""
+        },
+        {
+          "number": 10,
+          "name": "GetStreamingResolutionReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingResolutionReq",
+          "default": ""
+        },
+        {
+          "number": 11,
+          "name": "OpenStreamingTextEntryReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OpenStreamingTextEntryReq",
+          "default": ""
+        },
+        {
+          "number": 12,
+          "name": "CloseStreamingTextEntryReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.CloseStreamingTextEntryReq",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "StreamingRsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "requestId",
+          "label": 2,
+          "type": 13,
+          "type_name": "",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "result",
+          "label": 2,
+          "type": 14,
+          "type_name": ".mg.protocol.uplaydll.OperationResult",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "getStreamingCurrentUserCountryRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingCurrentUserCountryRsp",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "getStreamingTypeRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingTypeRsp",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "getStreamingNetworkDelayForInputRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingNetworkDelayForInputRsp",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "getStreamingNetworkDelayForVideoRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingNetworkDelayForVideoRsp",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "getStreamingNetworkDelayRoundtripRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingNetworkDelayRoundtripRsp",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "getStreamingDeviceTypeRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingDeviceTypeRsp",
+          "default": ""
+        },
+        {
+          "number": 9,
+          "name": "getStreamingInputTypeRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingInputTypeRsp",
+          "default": ""
+        },
+        {
+          "number": 10,
+          "name": "getStreamingInputGamepadTypeRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingInputGamepadTypeRsp",
+          "default": ""
+        },
+        {
+          "number": 11,
+          "name": "GetStreamingResolutionRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.GetStreamingResolutionRsp",
+          "default": ""
+        },
+        {
+          "number": 12,
+          "name": "OpenStreamingTextEntryRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OpenStreamingTextEntryRsp",
+          "default": ""
+        },
+        {
+          "number": 13,
+          "name": "CloseStreamingTextEntryRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.CloseStreamingTextEntryRsp",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "Req",
+      "fields": [
+        {
+          "number": 1,
+          "name": "initReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.InitReq",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "initProcessReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.InitProcessReq",
+          "default": ""
+        },
+        {
+          "number": 3,
+          "name": "writeAchievementsReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.WriteAchievementsReq",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "setGameSessionReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SetGameSessionReq",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "clearGameSessionReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ClearGameSessionReq",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "friendsReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.FriendsReq",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "achievementReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.AchievementReq",
+          "default": ""
+        },
+        {
+          "number": 9,
+          "name": "overlayReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayReq",
+          "default": ""
+        },
+        {
+          "number": 10,
+          "name": "avatarReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.AvatarReq",
+          "default": ""
+        },
+        {
+          "number": 11,
+          "name": "userReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UserReq",
+          "default": ""
+        },
+        {
+          "number": 12,
+          "name": "clubReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ClubReq",
+          "default": ""
+        },
+        {
+          "number": 13,
+          "name": "installerReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.InstallerReq",
+          "default": ""
+        },
+        {
+          "number": 14,
+          "name": "metadataReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MetadataReq",
+          "default": ""
+        },
+        {
+          "number": 17,
+          "name": "sdkMonitoringReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SDKMonitoringReq",
+          "default": ""
+        },
+        {
+          "number": 18,
+          "name": "richPresenceReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.RichPresenceReq",
+          "default": ""
+        },
+        {
+          "number": 20,
+          "name": "storeReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.StoreReq",
+          "default": ""
+        },
+        {
+          "number": 22,
+          "name": "setLanguageCountryCodeReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SetLanguageCountryCodeReq",
+          "default": ""
+        },
+        {
+          "number": 23,
+          "name": "productReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ProductReq",
+          "default": ""
+        },
+        {
+          "number": 24,
+          "name": "multiplayerReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerReq",
+          "default": ""
+        },
+        {
+          "number": 25,
+          "name": "userReqV2",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UserReqV2",
+          "default": ""
+        },
+        {
+          "number": 26,
+          "name": "launchAppReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.LaunchAppReq",
+          "default": ""
+        },
+        {
+          "number": 27,
+          "name": "streamingReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.StreamingReq",
+          "default": ""
+        },
+        {
+          "number": 28,
+          "name": "crossBootAllowedReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.CrossBootAllowedReq",
+          "default": ""
+        },
+        {
+          "number": 29,
+          "name": "crossBootStatusReq",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.CrossBootStatusReq",
+          "default": ""
+        }
+      ]
+    },
+    {
+      "name": "Rsp",
+      "fields": [
+        {
+          "number": 1,
+          "name": "initRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.InitRsp",
+          "default": ""
+        },
+        {
+          "number": 13,
+          "name": "initProcessRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.InitProcessRsp",
+          "default": ""
+        },
+        {
+          "number": 2,
+          "name": "writeAchievementsRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.WriteAchievementsRsp",
+          "default": ""
+        },
+        {
+          "number": 4,
+          "name": "friendsRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.FriendsRsp",
+          "default": ""
+        },
+        {
+          "number": 5,
+          "name": "achievementRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.AchievementRsp",
+          "default": ""
+        },
+        {
+          "number": 6,
+          "name": "overlayRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.OverlayRsp",
+          "default": ""
+        },
+        {
+          "number": 7,
+          "name": "avatarRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.AvatarRsp",
+          "default": ""
+        },
+        {
+          "number": 8,
+          "name": "userRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UserRsp",
+          "default": ""
+        },
+        {
+          "number": 9,
+          "name": "clubRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ClubRsp",
+          "default": ""
+        },
+        {
+          "number": 10,
+          "name": "installerRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.InstallerRsp",
+          "default": ""
+        },
+        {
+          "number": 12,
+          "name": "sdkMonitoringRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.SDKMonitoringRsp",
+          "default": ""
+        },
+        {
+          "number": 14,
+          "name": "storeRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.StoreRsp",
+          "default": ""
+        },
+        {
+          "number": 15,
+          "name": "productRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.ProductRsp",
+          "default": ""
+        },
+        {
+          "number": 16,
+          "name": "multiplayerRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.MultiplayerRsp",
+          "default": ""
+        },
+        {
+          "number": 17,
+          "name": "userRspV2",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.UserRspV2",
+          "default": ""
+        },
+        {
+          "number": 18,
+          "name": "terminateGamePush",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.TerminateGamePush",
+          "default": ""
+        },
+        {
+          "number": 19,
+          "name": "launchAppRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.LaunchAppRsp",
+          "default": ""
+        },
+        {
+          "number": 20,
+          "name": "streamingRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.StreamingRsp",
+          "default": ""
+        },
+        {
+          "number": 21,
+          "name": "crossBootAllowedRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.CrossBootAllowedRsp",
+          "default": ""
+        },
+        {
+          "number": 22,
+          "name": "crossBootStatusRsp",
+          "label": 1,
+          "type": 11,
+          "type_name": ".mg.protocol.uplaydll.CrossBootStatusRsp",
+          "default": ""
+        }
+      ]
+    }
+  ]
+}

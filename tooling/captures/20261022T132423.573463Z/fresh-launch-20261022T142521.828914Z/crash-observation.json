@@ -1,0 +1,51 @@
+{
+  "evidence_id": "ev_b7288b2f3a9d37d56293a6adf72a895acccbdca3bfa50a20ac0dc7c7a6346a98",
+  "subject": null,
+  "provider": {
+    "id": "frida",
+    "name": "Frida",
+    "version": null
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.frida.instrumentation-observation",
+  "operation": "frida_session_status",
+  "parameters": {
+    "session_id": "a0d449d7-55e9-46e7-82af-8ac756e55730"
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "session_id": "a0d449d7-55e9-46e7-82af-8ac756e55730",
+    "device_id": "local",
+    "state": "detached",
+    "target": "WatchDogs2.exe (pid 6580)",
+    "pid": 6580,
+    "mode": "attach",
+    "scripts": [
+      {
+        "script_id": "f43e0e2e-b75c-49bb-8214-4e7710b4f41a",
+        "name": "rea-f43e0e2e-b75c-49bb-8214-4e7710b4f41a"
+      }
+    ],
+    "messages": [
+      {
+        "script_id": "f43e0e2e-b75c-49bb-8214-4e7710b4f41a",
+        "type": "send",
+        "payload": {
+          "kind": "observer-ready",
+          "pid": 6580
+        }
+      }
+    ],
+    "messages_truncated": false
+  },
+  "confidence": "observed",
+  "authority": "external-service",
+  "environment": null,
+  "limitations": [
+    "Artifact identity is unavailable for this observation.",
+    "The target operating system and architecture were not reported by this observation."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

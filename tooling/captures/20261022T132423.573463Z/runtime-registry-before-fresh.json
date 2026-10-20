@@ -1,0 +1,14 @@
+[
+  {
+    "view": 32,
+    "key_existed": true,
+    "value_existed": true,
+    "value": "C:\\Program Files (x86)\\Ubisoft\\Ubisoft Game Launcher\\",
+    "kind": 1
+  },
+  {
+    "view": 64,
+    "key_existed": false,
+    "value_existed": false
+  }
+]

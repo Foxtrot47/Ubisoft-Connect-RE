@@ -1,0 +1,18 @@
+﻿{
+    "status":  "isolated",
+    "restore_needed":  true,
+    "directories":  [
+                        {
+                            "backup":  "C:\\Users\\foxtrot47\\AppData\\Local\\Ubisoft Game Launcher_POC_ISOLATED_20261022T152228Z",
+                            "original":  "C:\\Users\\foxtrot47\\AppData\\Local\\Ubisoft Game Launcher"
+                        },
+                        {
+                            "backup":  "C:\\ProgramData\\Ubisoft\\Ubisoft Game Launcher_POC_ISOLATED_20261022T152228Z",
+                            "original":  "C:\\ProgramData\\Ubisoft\\Ubisoft Game Launcher"
+                        },
+                        {
+                            "backup":  "C:\\Program Files (x86)\\Ubisoft\\Ubisoft Game Launcher_POC_ISOLATED_20261022T152228Z",
+                            "original":  "C:\\Program Files (x86)\\Ubisoft\\Ubisoft Game Launcher"
+                        }
+                    ]
+}

@@ -1,0 +1,10 @@
+=== registry BEFORE ===
+[64] SOFTWARE\Ubisoft\Launcher\InstallDir = 'C:\\Program Files (x86)\\Ubisoft\\Ubisoft Game Launcher'
+[64] SOFTWARE\Ubisoft\Launcher\Installs\2688 = <missing>
+[64] SOFTWARE\Ubisoft\WatchDogs2\InstallDir = 'E:\\Games\\WATCH_DOGS2'
+[32] SOFTWARE\Ubisoft\Launcher\InstallDir = 'C:\\Program Files (x86)\\Ubisoft\\Ubisoft Game Launcher'
+[32] SOFTWARE\Ubisoft\Launcher\Version = '13389'
+[32] SOFTWARE\Ubisoft\Launcher\Installer Language = '1033'
+[32] SOFTWARE\Ubisoft\Launcher\Installs\2688\Language = 'en-US'
+[32] SOFTWARE\Ubisoft\Launcher\Installs\2688\InstallDir = 'E:/Games/WATCH_DOGS2/'
+[32] SOFTWARE\Ubisoft\WatchDogs2\InstallDir = 'E:\\Games\\WATCH_DOGS2'

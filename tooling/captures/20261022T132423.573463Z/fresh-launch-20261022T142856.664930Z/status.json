@@ -1,0 +1,16 @@
+{
+  "launcher_pid": 9248,
+  "phase": "launched",
+  "pipe_prefix": "\\\\.\\pipe\\terminal_3_",
+  "game_pid": 16232,
+  "session_product_count": 125,
+  "child_exit_code": 0,
+  "live_pc_ticket_bytes": 620,
+  "live_game_token_bytes": 1576,
+  "challenge_sha256": "41f7c3f3229417a16d5c86c5b0a2fe38d4defde1a3f874520564b3c14ebdcaf5",
+  "challenge_matches_previous_capture": false,
+  "session_pushes": 1,
+  "session_capture_replayed": false,
+  "activation_disk_cache_used": false,
+  "eac_skip_requested": true
+}

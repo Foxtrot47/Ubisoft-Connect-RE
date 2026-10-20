@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "game_token_requested": true,
+  "request_bytes": 340,
+  "ownership_bytes": 957,
+  "game_token_bytes": 1576,
+  "game_token_sha256": "1e20e292fc79342932d8d70d2323d9a8bd83594d82c31fc3ce7e9954f0b5be2d",
+  "elapsed_seconds": 5.95,
+  "limitation": "Uses an already captured game challenge, not a new game-generated challenge."
+}

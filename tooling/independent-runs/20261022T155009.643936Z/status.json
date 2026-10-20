@@ -1,0 +1,23 @@
+{
+  "phase": "game-exited",
+  "launcher_pid": 15932,
+  "authentication_source": "poc-session-file",
+  "independent_session": true,
+  "session_capture_replayed": false,
+  "followup_capture_replayed": false,
+  "activation_disk_cache_used": false,
+  "official_configuration_cache_used": false,
+  "blocked_python_file_accesses": 0,
+  "bootstrap_pid": 10940,
+  "bootstrap_exit_code": 0,
+  "active_game_pid": 16596,
+  "active_game_exit_code": 0,
+  "active_game_exit_hex": "0x00000000",
+  "live_pc_ticket_bytes": 620,
+  "live_game_token_bytes": 1576,
+  "session_product_count": 125,
+  "session_pushes": 1,
+  "challenge_sha256": "8a5c77024571d7f50bd4c5ac901063acc1a2285b17101338c75b74a9009c2575",
+  "eac_skip_requested": true,
+  "save_root": "C:\\Users\\foxtrot47\\pi\\ubisoft-re\\tooling\\independent-runs\\20261022T155009.643936Z\\savegames"
+}

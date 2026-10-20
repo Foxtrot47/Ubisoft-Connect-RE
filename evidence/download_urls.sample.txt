@@ -1,0 +1,12 @@
+http://ns.adobe.com/xap/1.0/
+http://ns.adobe.com/xap/1.0/.
+http://ns.adobe.com/xap/1.0/mm/
+http://ns.adobe.com/xap/1.0/sType/ResourceRef
+http://uplaypc-s-ubisoft.cdn.ubi.com/uplaypc/downloads/1875/manifests/F0A9A1AE51FAAD88C7FBFCA20409864690E74F8A.licenses
+http://uplaypc-s-ubisoft.cdn.ubi.com/uplaypc/downloads/1875/manifests/F0A9A1AE51FAAD88C7FBFCA20409864690E74F8A.manifest
+http://uplaypc-s-ubisoft.cdn.ubi.com/uplaypc/downloads/1875/manifests/F0A9A1AE51FAAD88C7FBFCA20409864690E74F8A.metadata
+http://uplaypc-s-ubisoft.cdn.ubi.com/uplaypc/downloads/1875/slices_v3/0/00287A7ACF6E5D369DDBD8F90B783C663DBA0F39
+http://uplaypc-s-ubisoft.cdn.ubi.com/uplaypc/downloads/1875/slices_v3/0/009CA39FF1637A38619547B10F46D5A494EE0F22
+http://uplaypc-s-ubisoft.cdn.ubi.com/uplaypc/downloads/1875/slices_v3/0/00C4944E9BDB89659CAF44B49704507988D0EDC0
+http://uplaypc-s-ubisoft.cdn.ubi.com/uplaypc/downloads/1875/slices_v3/0/2035B1904052DF5066DA71D2280A3EF7C4A0CEC8
+http://uplaypc-s-ubisoft.cdn.ubi.com/uplaypc/downloads/1875/slices_v3/0/206000984CD319C26CE42732FE489D52587E9148

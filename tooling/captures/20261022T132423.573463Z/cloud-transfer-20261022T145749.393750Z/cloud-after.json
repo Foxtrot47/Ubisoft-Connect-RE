@@ -1,0 +1,30 @@
+{
+  "entityId": "d80f6472-f100-4b19-be1f-f07aa095581f",
+  "profileId": "1ae5ff50-ea9d-4b3d-a9e0-d33625791ffe",
+  "spaceId": "e17be87d-2996-4f3b-97c4-19bb2dae2933",
+  "type": "cloudSave",
+  "name": "upcCloudSaveUplayId_2688",
+  "tags": [],
+  "obj": {
+    "slots": [
+      {
+        "id": 1,
+        "filename": "1",
+        "hash": "ce3f0c93d6776590c495779577c61887",
+        "size": 4307,
+        "lastModified": "2026-10-21T17:37:11.728Z"
+      },
+      {
+        "id": 2,
+        "filename": "2",
+        "hash": "4fbf5a43032060408c8ad267e43db272",
+        "size": 31712,
+        "lastModified": "2021-04-29T06:50:32.255Z"
+      }
+    ],
+    "timestamp": "1792604163",
+    "pc_name": "FOX-RYZEN"
+  },
+  "lastModified": "2026-10-21T17:44:31.405Z",
+  "revision": 3
+}

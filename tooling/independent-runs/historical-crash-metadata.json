@@ -1,0 +1,64 @@
+{
+  "source": "C:\\Users\\foxtrot47\\AppData\\Local\\CrashDumps\\WatchDogs2.exe.5352.dmp",
+  "scope": "historical first generated-session run, not latest independent run",
+  "exception_code": "0xc0000005",
+  "thread_id": 11852,
+  "fault_location": {
+    "module": "Disrupt_64.dll",
+    "offset": "0x4c84670"
+  },
+  "instruction_location": {
+    "module": "Disrupt_64.dll",
+    "offset": "0x4c84670"
+  },
+  "memory_operation": "read",
+  "fault_memory_address": "0xffffffffffffffff",
+  "instruction_bytes": "8b088d91fffefe7ef7d131caf7c20001018175164883c004ebe629d04c89d14c",
+  "stack_module_candidates_not_unwound": [
+    {
+      "stack_offset": "0x0",
+      "module": "Disrupt_64.dll",
+      "offset": "0x4c9b73e"
+    },
+    {
+      "stack_offset": "0x30",
+      "module": "Disrupt_64.dll",
+      "offset": "0x1b31fce"
+    },
+    {
+      "stack_offset": "0x40",
+      "module": "Disrupt_64.dll",
+      "offset": "0x353d300"
+    },
+    {
+      "stack_offset": "0x60",
+      "module": "Disrupt_64.dll",
+      "offset": "0x4c84b30"
+    },
+    {
+      "stack_offset": "0x80",
+      "module": "Disrupt_64.dll",
+      "offset": "0x4db2d25"
+    },
+    {
+      "stack_offset": "0x90",
+      "module": "Disrupt_64.dll",
+      "offset": "0x4c899d6"
+    },
+    {
+      "stack_offset": "0xf0",
+      "module": "Disrupt_64.dll",
+      "offset": "0x1a80840"
+    },
+    {
+      "stack_offset": "0x1c0",
+      "module": "Disrupt_64.dll",
+      "offset": "0x35169d0"
+    },
+    {
+      "stack_offset": "0x1d0",
+      "module": "ntdll.dll",
+      "offset": "0x161b14"
+    }
+  ]
+}

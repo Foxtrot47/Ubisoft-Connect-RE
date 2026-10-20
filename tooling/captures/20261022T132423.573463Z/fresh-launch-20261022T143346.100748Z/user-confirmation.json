@@ -1,0 +1,10 @@
+{
+  "confirmed_at_utc": "2026-10-22T14:40:57.393052+00:00",
+  "source": "user report: yes in menu",
+  "menu_confirmed": true,
+  "gameplay_confirmed": false,
+  "save_confirmed": false,
+  "activation": "server-issued for a newly arriving challenge",
+  "session_mode": "explicit captured-session compatibility",
+  "eac_skip_requested": true
+}

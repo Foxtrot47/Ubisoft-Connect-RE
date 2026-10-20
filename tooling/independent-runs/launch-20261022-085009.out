@@ -1,0 +1,60 @@
+Independent run directory: C:\Users\foxtrot47\pi\ubisoft-re\tooling\independent-runs\20261022T155009.643936Z
+[*] fake launcher serving 3 pipes (+7 observe-only)
+[cloudsave] revision=3 cloud=ce3f0c93d6776590c495779577c61887 (4307B, 2026-10-21T17:37:11.728Z)
+[cloudsave] local=None (0B) -> CLOUD ONLY (no local save)
+[session] live PC ticket ready (620B), 125 catalog products
+[launch] spawned pid=10940 cwd=C:\Users\foxtrot47\WATCH_DOGS2
+[pipe] client connected on game_start_ipc_pipe_
+[game_start] raw 98B head=0000005e0a5c0a5a08cd6810801520015231433a5c55736572735c666f7874726f7434375c57415443485f444f475332[launch] startup process exited with code 0x00000000
+
+[game_start] exe='C:\\Users\\foxtrot47\\WATCH_DOGS2\\bin\\WatchDogs2.exe' cwd=''
+[game_start] launch parameters returned
+[pipe] client connected on uplay_aux_ipc_pipe_
+[aux] req 11B rid=1 init
+[pipe] client connected on uplay_api_process_ipc_pipe_
+[api_process] productId=2688 gamePid=16596
+[launch] wait event signaled
+[pipe] client connected on uplay_ipc_pipe_
+[uplay_ipc] request 13B 000000090a0708801510d48101
+[uplay_ipc] session pushed (1345B), ticket 4307B, 1 push(es)
+[uplay_ipc] fresh mode: no captured follow-ups replayed
+[aux] req 357B rid=2 activate
+[aux] secureDlcEnabled=0
+[playsession] started
+[uplay_ipc] request 8B 000000046a020a00
+[uplay_ipc] generated installer initialization (language=en-US, no chunk catalog)
+[aux] server-issued gameToken (1576B)
+[uplay_ipc] request 8B 000000043a020a00
+[uplay_ipc] unsupported request fields [7]
+[uplay_ipc] request 12B 000000084a060a0408031001
+[uplay_ipc] unsupported request fields [9]
+[uplay_ipc] request 50B 0000002e522c0a2a0805122431616535666635302d656139
+[uplay_ipc] unsupported request fields [10]
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[uplay_ipc] idle/closed[aux] idle/closed[api_process] idle/closed
+
+
+[launch] real game pid=16596 exited with code 0x00000000
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed
+[playsession] refreshed

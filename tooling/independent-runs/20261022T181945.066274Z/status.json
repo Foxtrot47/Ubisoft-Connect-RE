@@ -1,0 +1,23 @@
+{
+  "phase": "failed",
+  "launcher_pid": 17772,
+  "authentication_source": "poc-session-file",
+  "independent_session": true,
+  "session_capture_replayed": false,
+  "followup_capture_replayed": false,
+  "activation_disk_cache_used": false,
+  "official_configuration_cache_used": false,
+  "blocked_python_file_accesses": 0,
+  "bootstrap_pid": null,
+  "bootstrap_exit_code": null,
+  "active_game_pid": null,
+  "active_game_exit_code": null,
+  "active_game_exit_hex": null,
+  "live_pc_ticket_bytes": 0,
+  "live_game_token_bytes": 0,
+  "session_product_count": 0,
+  "session_pushes": 0,
+  "challenge_sha256": null,
+  "eac_skip_requested": false,
+  "save_root": "C:\\Users\\foxtrot47\\pi\\ubisoft-re\\tooling\\independent-runs\\20261022T181945.066274Z\\savegames"
+}
